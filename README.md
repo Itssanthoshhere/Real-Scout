@@ -38,11 +38,13 @@ It allows users to search, filter, and view property details, save favorites, an
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **[Expo](https://expo.dev/)** – For building cross-platform mobile apps with React Native.
-- **[React Native](https://reactnative.dev/)** – Framework for building native UIs with React.
-- **[Appwrite](https://appwrite.io/)** – Backend-as-a-Service for authentication, database, and file storage.
-- **[TypeScript](https://www.typescriptlang.org/)** – Type-safe JavaScript for better scalability and maintainability.
-- **[NativeWind](https://www.nativewind.dev/)** + **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first styling for rapid UI development.
+- **[Expo](https://expo.dev/)** – Expo is an open-source platform for building universal native apps (Android, iOS, web) using JavaScript/TypeScript and React Native. It features file-based routing via Expo Router, fast refresh, native modules for camera/maps/notifications, over-the-air updates (EAS), and streamlined app deployment.
+- **[React Native](https://reactnative.dev/)** – React Native is a framework for building mobile UIs with React. It enables component‑based, cross-platform development with declarative UI, deep native API support, and is tightly integrated with Expo for navigation and native capabilities.
+- **[Appwrite](https://appwrite.io/)** – Appwrite is an open-source backend-as-a-service platform offering secure authentication (email/password, OAuth, SMS, magic links), databases, file storage with compression/encryption, real-time messaging, serverless functions, and static site hosting via Appwrite Sites—all managed through a unified console and microservices architecture.
+- **[TypeScript](https://www.typescriptlang.org/)** – TypeScript is a statically-typed superset of JavaScript providing type annotations, interfaces, enums, generics, and enhanced tooling. It improves error detection, code quality, and scalability—ideal for robust, maintainable projects.
+- **[NativeWind](https://www.nativewind.dev/)** - NativeWind brings Tailwind CSS to React Native and Expo, allowing you to style mobile components using utility-first classes for fast, consistent, and responsive UI design.
+- **[Tailwind CSS](https://tailwindcss.com/)** – Tailwind CSS is a utility-first CSS framework enabling rapid UI design via low-level classes. In React Native/Expo, it’s commonly used with NativeWind to apply Tailwind-style utilities to mobile components.
+
 
 ## 🎨 UI/UX Design
 
