@@ -75,10 +75,15 @@ From the onboarding screens to property detail views, every element follows a cl
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
-**Prerequisites**  
-- [Git](https://git-scm.com/)  
-- [Node.js](https://nodejs.org/en)  
-- [npm](https://www.npmjs.com/)  
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
 **Cloning the Repository**
 ```bash
@@ -86,14 +91,15 @@ git clone https://github.com/Itssanthoshhere/Real-Scout.git
 cd Real-Scout
 ````
 
-**Installation**
+**Installation** 
 
 ```bash
 npm install
 ```
 
-**Environment Variables**
-Create `.env.local` and add:
+**Set Up Environment Variables**
+
+Create a new file named `.env.local` in the root of your project and add the following content:
 
 ```env
 EXPO_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
@@ -105,13 +111,24 @@ EXPO_PUBLIC_APPWRITE_AGENTS_COLLECTION_ID=
 EXPO_PUBLIC_APPWRITE_PROPERTIES_COLLECTION_ID=
 ```
 
-*(Fill in your Appwrite credentials)*
+Replace the values with your actual Appwrite credentials. You can obtain these credentials by signing up & creating a new project on the [**Appwrite Dashboard**](https://jsm.dev/rn25-appwrite).
 
-**Run the App**
-
+**Start the app**
+   
 ```bash
-npx expo start
+ npx expo start
 ```
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+
 
 ---
 
@@ -133,4 +150,3 @@ Feel free to connect with me:
 ## ⭐️ Show Your Support
 
 If you liked this project, drop a ⭐ on the repo and share it with others!
-
