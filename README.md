@@ -51,7 +51,7 @@ From the onboarding screens to property detail views, every element follows a cl
 
 <p align="center">
   <a href="https://www.figma.com/design/YOUR_FIGMA_PROJECT_LINK" target="_blank">
-    <img src="https://www.figma.com/design/F0pys4nJsQXz42KOzI2yl9/Real-Scout---Real-Estate-App?node-id=2-2&t=AOmGLBfikM9gT9dI-1" alt="Figma Link" />
+    <img src="https://img.shields.io/badge/View%20Figma%20Design-blue?style=for-the-badge&logo=figma&logoColor=white" alt="Figma Link" />
   </a>
 </p>
 
@@ -132,6 +132,3 @@ Feel free to connect with me:
 
 If you liked this project, drop a ⭐ on the repo and share it with others!
 
-
-
-# Real-Scout
