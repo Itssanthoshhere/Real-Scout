@@ -50,7 +50,7 @@ The entire interface of **Real Scout – Real Estate App** was designed with a f
 From the onboarding screens to property detail views, every element follows a clean, modern, and user-friendly design system that enhances both functionality and aesthetics.
 
 <p align="center">
-  <a href="https://www.figma.com/design/YOUR_FIGMA_PROJECT_LINK" target="_blank">
+  <a href="https://www.figma.com/design/F0pys4nJsQXz42KOzI2yl9/Real-Scout---Real-Estate-App?node-id=2-2&t=PjxkudNOJCqZHm97-1" target="_blank">
     <img src="https://img.shields.io/badge/View%20Figma%20Design-blue?style=for-the-badge&logo=figma&logoColor=white" alt="Figma Link" />
   </a>
 </p>
