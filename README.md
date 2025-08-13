@@ -1,50 +1,137 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<div align="center">
+  <br />
+    <a href="https://youtu.be/YOUR_DEMO_LINK" target="_blank">
+      <img src="assets/readme/hero.png" alt="Project Banner">
+    </a>
+  <br />
+  <div>
+    <img src="https://img.shields.io/badge/-Expo-black?style=for-the-badge&logoColor=white&logo=expo&color=000020" alt="expo" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
 
-## Get started
+  <h3 align="center">🏡 Real Scout – Real Estate App</h3>
 
-1. Install dependencies
+   <div align="center">
+     A modern cross-platform real estate application built with React Native, designed for browsing, searching, and managing property listings with ease.
+    </div>
+</div>
 
-   ```bash
-   npm install
-   ```
+## 📋 <a name="table">Table of Contents</a>
+1. 🤖 [Introduction](#introduction)  
+2. ⚙️ [Tech Stack](#tech-stack)  
+3. 🔋 [Features](#features)  
+4. 🤸 [Quick Start](#quick-start)  
+5. 📞 [Contacts](#contacts)
+6. 🚀 [Show Your Support](#show-your-support)
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## <a name="introduction">🤖 Introduction</a>
 
-In the output, you'll find options to open the app in a
+**Real Scout** is a full-stack real estate mobile app built using **React Native**, **Expo SDK 52**, **Appwrite**, **Tailwind CSS**, and **TypeScript**.  
+It allows users to search, filter, and view property details, save favorites, and manage their profiles — all in one seamless and visually appealing interface.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-## Get a fresh project
+- **[Expo](https://expo.dev/)** – For building cross-platform mobile apps with React Native.
+- **[React Native](https://reactnative.dev/)** – Framework for building native UIs with React.
+- **[Appwrite](https://appwrite.io/)** – Backend-as-a-Service for authentication, database, and file storage.
+- **[TypeScript](https://www.typescriptlang.org/)** – Type-safe JavaScript for better scalability and maintainability.
+- **[NativeWind](https://www.nativewind.dev/)** + **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first styling for rapid UI development.
 
-When you're ready, run:
+## 🎨 UI/UX Design
+
+The entire interface of **Real Scout – Real Estate App** was designed with a focus on delivering a seamless and engaging property-browsing experience.  
+From the onboarding screens to property detail views, every element follows a clean, modern, and user-friendly design system that enhances both functionality and aesthetics.
+
+<p align="center">
+  <a href="https://www.figma.com/design/YOUR_FIGMA_PROJECT_LINK" target="_blank">
+    <img src="https://www.figma.com/design/F0pys4nJsQXz42KOzI2yl9/Real-Scout---Real-Estate-App?node-id=2-2&t=AOmGLBfikM9gT9dI-1" alt="Figma Link" />
+  </a>
+</p>
+
+> ✨ Crafted with attention to detail to ensure a smooth user journey across Android and iOS platforms.
+
+
+---
+
+## <a name="features">🔋 Features</a>
+
+- 🔐 **Google Authentication** – Secure login for users.  
+- 🏠 **Home Page** – Shows latest and recommended properties with search and filter.  
+- 🌎 **Explore Page** – Browse all property types with an intuitive UI.  
+- 🏡 **Property Details Page** – View photos, pricing, and full property information.  
+- 👤 **Profile Page** – Manage profile details and preferences.  
+- ⚡ **Centralized Data Fetching** – Inspired by TanStack’s `useQuery` for efficient API calls.  
+
+---
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+**Prerequisites**  
+- [Git](https://git-scm.com/)  
+- [Node.js](https://nodejs.org/en)  
+- [npm](https://www.npmjs.com/)  
+
+**Cloning the Repository**
+```bash
+git clone https://github.com/Itssanthoshhere/Real-Scout.git
+cd Real-Scout
+````
+
+**Installation**
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Environment Variables**
+Create `.env.local` and add:
 
-## Learn more
+```env
+EXPO_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=
+EXPO_PUBLIC_APPWRITE_GALLERIES_COLLECTION_ID=
+EXPO_PUBLIC_APPWRITE_REVIEWS_COLLECTION_ID=
+EXPO_PUBLIC_APPWRITE_AGENTS_COLLECTION_ID=
+EXPO_PUBLIC_APPWRITE_PROPERTIES_COLLECTION_ID=
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+*(Fill in your Appwrite credentials)*
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Run the App**
 
-## Join the community
+```bash
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🙌 Special Thanks
+
+Inspired by **JavaScript Mastery’s** tutorials, but built with my own improvements, custom UI, and bug fixes.
+
+---
+
+## <a name="contacts">🔗 Contacts</a>
+
+Feel free to connect with me:
+
+* GitHub: [Itssanthoshhere](https://github.com/Itssanthoshhere)
+* LinkedIn: [Santhosh VS](https://www.linkedin.com/in/thesanthoshvs/)
+
+---
+
+## ⭐️ Show Your Support
+
+If you liked this project, drop a ⭐ on the repo and share it with others!
+
+
+
+# Real-Scout
